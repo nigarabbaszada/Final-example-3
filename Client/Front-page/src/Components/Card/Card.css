@@ -1,0 +1,64 @@
+.meetmainBox{
+    width: 100%;
+    height: 300px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.meetText{
+    width: 700px;
+    height: 400px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.meetText div h2{
+    font-size: 40px;
+}
+
+.meetText div p{
+    color: rgb(95, 94, 94);
+}
+
+.cardmainBox{
+    width: 100%;
+    height: 600px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.cardmainBox .cardBox{
+    width: 400px;
+    height: 450px;
+    padding: 40px 20px;
+}
+
+.cardBox .cardImg{
+    width: 100%;
+    height: 80%;
+}
+
+.cardBox .cardText{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(211, 207, 207);
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cardBox .cardText div h4{
+    font-size: 20px;
+    color: rgb(73, 72, 72);
+}

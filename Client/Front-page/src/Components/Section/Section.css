@@ -1,0 +1,51 @@
+.datamainBox{
+    width: 100%;
+    height: 300px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+}
+
+.dataBox{
+    width: 300px;
+    height: 500px;    
+}
+.boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dataBox .iconBox{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dataBox .icon{
+    font-size: 50px;
+}
+
+.dataBox div{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.dataBox div .dataBtn{
+    width: 140px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid red;
+}
+
+.dataBox div .dataBtn:hover{
+    background-color: red;
+    color: white;
+}
